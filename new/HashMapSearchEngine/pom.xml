@@ -81,12 +81,4 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-	<bean id="map" class="java.util.HashMap" scope="prototype" >
-    <constructor-arg>
-        <map key-type="java.lang.Integer" value-type="java.lang.String">
-            <entry key="1" value="one" />
-            <entry key="2" value="two" />
-        </map>
-    </constructor-arg>
-</bean>
 </project>
