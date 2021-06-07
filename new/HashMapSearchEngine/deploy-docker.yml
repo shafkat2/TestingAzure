@@ -1,7 +1,7 @@
 ---
 - hosts: test
   become: True
-  task:
+  tasks:
     - name: Install python pip
       yum:
         name: python-pip
