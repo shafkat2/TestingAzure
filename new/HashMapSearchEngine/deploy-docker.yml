@@ -20,7 +20,7 @@
         name: docker-py
         state: present
     - name: Start the container
-      docker_cotainerr:
+      docker_cotainer:
         name: testapp
         image: "cranifax/testapp:{{DOCKER_TAG}}"
         state: started
